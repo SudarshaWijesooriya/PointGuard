@@ -151,8 +151,8 @@ p {
 .bullet-icon {
     vertical-align: middle; /* Aligns the icon with the middle of the text line */
     margin-right: 10px; /* Adds spacing between the icon and the text */
-    width: 20px; /* Sets a fixed width for the icon */
-    height: 20px; /* Sets a fixed height for the icon */
+    width: 10px; /* Sets a fixed width for the icon */
+    height: 10px; /* Sets a fixed height for the icon */
 }
 
 footer {
