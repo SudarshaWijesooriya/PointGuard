@@ -12,9 +12,9 @@
 			<ul>
 				<li><a href="#home">HOME</a></li>
 				<li id="researchproblem-link"><a href="#research-problem-solution">Research Problem</a></li>
-				<li id="methology-link"><a href="#research-objectives">Methodology</a></li>
+				<li id="research-objectives-link"><a href="#research-objectives">Research Objectives</a></li>
+				<li id="methology-link"><a href="#methodology">Methodology</a></li>
 				<li><a href="#portfolio">PORTFOLIO</a></li>
-				<li><a href="#contact">CONTACT</a></li>
 			</ul>
 		</nav>
 		<div class="hero">
@@ -92,10 +92,16 @@
                 scrollToElement('#research-problem-solution'); // Smooth scroll to the 'Research Problem & Solution' section
             });
 
-            // Event listener for the 'Methology' navigation link
-            document.getElementById('methology-link').addEventListener('click', function(event) {
+            // Event listener for the 'Research Objectives' navigation link
+            document.getElementById('research-objectives-link').addEventListener('click', function(event) {
                 event.preventDefault(); // Prevent the default anchor behavior
                 scrollToElement('#research-objectives'); // Smooth scroll to the 'Research Objectives' section
+            });
+			
+			// Event listener for the 'Methology' navigation link
+            document.getElementById('methology-link').addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent the default anchor behavior
+                scrollToElement('#methodology'); // Smooth scroll to the 'Research Objectives' section
             });
         });
     </script>
