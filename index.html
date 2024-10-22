@@ -1,110 +1,914 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Point Guard - Home</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SLIIT Final Year Research">
+    <meta name="author" content="Devcrud">
+    <title>Samrt Crosswalk</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
-	<header>
-		<nav> 
-			<ul>
-				<li><a href="#home">HOME</a></li>
-				<li id="researchproblem-link"><a href="#research-problem-solution">Research Problem</a></li>
-				<li id="research-objectives-link"><a href="#research-objectives">Research Objectives</a></li>
-				<li id="methology-link"><a href="#methodology">Methodology</a></li>
-				<li><a href="#aboutus">About Us</a></li>
-			</ul>
-		</nav>
-		<div class="hero">
-			<h1>"Point Guard" The Computer Vision-Based Interactive Basketball Training Platform</h1>
-			<!-- <p class="tagline">Point Guard</p> -->
-			<img src="logo.webp" alt="Point Guard Logo" style="height: 50px;">
-		</div>
-	</header>
-    <main id="home">
-        <section class="intro">
-        <p><img src="round.webp" alt="Bullet Icon" class="bullet-icon">According to SLBF over 10,000 members play basketball in Sri Lanka.</p>
-        <p><img src="round.webp" alt="Bullet Icon" class="bullet-icon">Traditional basketball training relies on manual observation, limiting the accuracy of skill development.</p>
-        <p><img src="round.webp" alt="Bullet Icon" class="bullet-icon">Integrating computer vision, machine learning, and analytics overcomes traditional training limits.</p>
-        </section>
-        <section id="research-problem-solution">
-            <h2>Research Problem & Solution</h2>
-            <div class="problem-solution-container">
-                <div class="proposed-problem">
-                    <h3>Proposed Problem</h3>
-                    <p>Computer vision algorithms have become increasingly accurate and reliable in tracking the trajectory and precision of basketball shots, providing valuable insights into player performance. Hoop-tracking systems offer real-time feedback during training sessions, enabling athletes to correct their form instantly and optimize shooting performance. Incorporating these systems into training programs significantly enhances skill development by delivering personalized feedback. Customizing workout plans for individual players relies on advanced algorithms that assess body size, inputs, and composition, tailoring strength training to their needs while promoting injury prevention and muscle group development. Movement-tracking systems provide real-time feedback, helping beginners assess and correct their movements effectively, while self-development practices empower players with limited knowledge of player movement to improve their skills. Progress tracking and performance analytics identify individual strengths and weaknesses, facilitating targeted training interventions. Additionally, machine learning and predictive analytics enable the forecasting of future performance, offering deeper insights into areas requiring improvement and helping athletes reach their full potential through data-driven strategies.</p>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hi, Welcome to</h4>
+                &nbsp
+                <h1 class="header-title">Smart Crosswalk</h1>
+                <h6 class="header-mono" >Machine Learning | Deep Learning | Image Processing based pedestrian and vehicle monitoring system</h6>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#research" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#soluion" class="nav-link">Solution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#results" class="nav-link">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#doc" class="nav-link">Documents & Presentations</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who We Are ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Final Year Undergraduates at SLIIT</h5>
+                <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?</p>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Our Research</h3>
+                <span class="line mb-5"></span>
+                <p class="mt-40">Our team is proposing to build up on an intelligent crosswalk system in order to provide a safer and more efficient pedestrian crossing experience by using Machine Learning , Deep Learning and Image Processing technologies.</p>
+                <h6 class="font-weight-light">Main components of our research :</h6>
+                <ol class="mt40 info list-unstyled">
+                    <li><span>1. Real-time Pedestrian Detection and Priority System for Disable-Pedestrian on Crosswalks</span></li>
+                    <li><span>2. A real time traffic light system based on road condition, availability confirmation and uncontrollable speeds near crosswalks</span></li>
+                    <li><span>3. Real-time Emergency Vehicle Detection and Priority System with Verification for Crosswalks</span></li>
+                    <li><span>4. Pedestrian accident and rule violation detection on crosswalk</span></li>
+                </ol>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Team Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Supervisor</span> : Ms. Jenny Krishara - Lecturer  <a class="social-lin text-danger" href="https://www.linkedin.com/in/jenny-krishara-1a09a0111/" target="0"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li><span>Co-Supervisor</span> : Ms. Sanjeevi Chandrasiri - Senior Lecturer  <a class="social-lin text-danger" href="https://www.linkedin.com/in/sanjeevi-chandrasiri-6154b319/" target="0"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li><span>Member 1</span> : Hiruni Kaveesha - IT20183004 - Undergraduate  <a class="social-lin text-danger" href="https://www.linkedin.com/in/kaveesha-hiruni-97bb2322b/" target="0"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li><span>Member 2</span> : Lakitha Weerakoon - IT20182700 - Undergraduate  <a class="social-lin text-danger" href="https://www.linkedin.com/in/lakitha-mitchel-905b2522b/" target="0"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li><span>Member 3</span> : Sanduni Jayasinghe - IT20222154 - Undergraduate  <a class="social-lin text-danger" href="#" target="0"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li><span>Member 4</span> : Tolani Weerasinghe - IT20178840 - Undergraduate  <a class="social-lin text-danger" href="https://www.linkedin.com/in/tolani-ridmini-402030225/" target="0"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-12 about-card">
+                <h3 class="font-weight-light">Meet Our Team</h3>
+                <span class="line mb-5"></span>
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-6 col-md-4 col-lg-2">
+                            <div class="image-container">
+                              <div class="image-wrapper">
+                                <img src="assets/imgs/MsJenny.jpg" alt="" class="member-img">
+                                <p><b>Supervisor</b></p>
+                                <p>Ms. Jenny Krishara</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-4 col-lg-2">
+                            <div class="image-container">
+                              <div class="image-wrapper">
+                                <img src="assets/imgs/MsSanji.jpg" alt="" class="member-img">
+                                <p><b>Co-Supervisor</b></p>
+                                <p>Ms. Sanjeevi Chandrasiri</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-4 col-lg-2">
+                            <div class="image-container">
+                              <div class="image-wrapper">
+                                <img src="assets/imgs/kaveesha.jpg" alt="" class="member-img">
+                                <p><b>Member 1</b></p>
+                                <p>Hiruni Kaveesha</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-4 col-lg-2">
+                            <div class="image-container">
+                              <div class="image-wrapper">
+                                <img src="assets/imgs/lakitha.jpg" alt="" class="member-img">
+                                <p><b>Member 2</b></p>
+                                <p>Lakitha Weerakoon</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-4 col-lg-2">
+                            <div class="image-container">
+                              <div class="image-wrapper">
+                                <img src="assets/imgs/sanduni.jpg" alt="" class="member-img">
+                                <p><b>Member 3</b></p>
+                                <p>Sanduni Jayasinghe</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-4 col-lg-2">
+                            <div class="image-container">
+                              <div class="image-wrapper">
+                                <img src="assets/imgs/tolani.jpg" alt="" class="member-img">
+                                <p><b>Member 4</b></p>
+                                <p>Tolani Weerasinghe</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section" id="research">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">Our</span> Research</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Introduction</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <P class="subtitle">Current crosswalks system are inefficient so the probability of happening accidents are high and it does not provide a safe experience to the pedestrians.</P>
+                            <P class="subtitle" style="margin-bottom: 90px;">Our team built up an intelligent crosswalk system in order to provide a safer and more efficient pedestrian crossing experience by using machine learning and image processing technologies.</P>
+                        </div>
+                    </div>
                 </div>
-                <div class="proposed-solution">
-                    <h3>Proposed Solution</h3>
-                    <p>The research solution focuses on developing a comprehensive basketball training application that enhances player performance through advanced analytics and personalized recommendations. By incorporating user inputs collected via surveys, the app can provide tailored feedback on shooting mechanics, defense techniques, and overall performance. The system integrates body analysis and real-time movement tracking to design strength training programs that cater to individual needs, ensuring precise and customized workout plans. Utilizing machine learning algorithms, the app predicts player movements more accurately and offers personalized suggestions to improve gameplay. Players can engage in practice sessions that adapt based on performance analytics, enabling continuous progress tracking and refinement of skills. With a user-friendly interface, the application ensures accessibility while empowering players to learn, practice, and achieve their goals in scoring, dribbling, and defending.</p>
+                <div class="col-md-6 col-lg-8">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Abstraction</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <P class="subtitle">The limitations of the traditional crosswalk system necessitate urgent reform for improved pedestrian safety and urban mobility. Inadequate pedestrian crossing times, prolonged waiting, emergency vehicle neglect, and a lack of 24/7 effective response mechanisms at traditional crosswalks pose pressing urban safety concerns. Our paramount objective is the creation of an advanced crosswalk system, underpinned by deep learning and image processing technologies. This research endeavors to innovate a sophisticated smart crosswalk system encompassing four key elements: a real-time Pedestrian Detection and Priority System tailored to special needs individuals, an adaptive vehicle availability and speed detective system in proximity to crosswalks, a real-time Emergency Vehicle Detection and Priority System fortified with rigorous verification protocols, and a robust framework for identifying pedestrian accidents and rule violations at crosswalks. The overall system is meticulously designed to not only enhance pedestrian safety by detecting potential hazards but also optimize traffic flow. In essence, it aspires to deliver a refined pedestrian crossing experience characterized by heightened safety and efficiency</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-12">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Main Objective (Overall System)</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <P class="subtitle">Build an intelligent crosswalk system in order to provide a safer and more efficient pedestrian crossing experience by using machine learning and image processing technologies to detect potential hazards and improve traffic flow</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Main Objective (Component 1)</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <P class="subtitle" style="margin-bottom: 60px;">Develop a pedestrian detection and time estimation model that can accurately count pedestrians and estimate the time duration for crossing the road, with a specific focus on prioritizing disabled pedestrians</P>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                             <div class="pull-left">
+                                 <h4 class="mt-2">Sub Objectives (Component 1)</h4>
+                                 <span class="line"></span>  
+                             </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <p class="subtitle">Highlight the system's robust pedestrian detection and disabled pedestrian identification accurately</p>
+                             <p class="subtitle">Emphasize the practical applications of the system for enhancing road safety, traffic flow, and urban development, while underlining the importance of real-world validation and future research directions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Main Objective (Component 2)</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <P class="subtitle">Create a dynamic traffic light control model that responds to real-world data, considering the conditions on the road, vehicle availability to reduce unnecessary idling time for pedestrians by training a machine learning model on image data derived from image processing</P>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                             <div class="pull-left">
+                                 <h4 class="mt-2">Sub Objectives (Component 2)</h4>
+                                 <span class="line"></span>  
+                             </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <p class="subtitle">Implement a system at the road cross that accurately measures uncontrollable vehicle speed</p>
+                             <p class="subtitle" style="margin-bottom: 80px;">Adjust traffic light state durations to ensure safe and efficient movement of both pedestrians and vehicles, to reduce the risk of accidents</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Main Objective (Component 3)</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <P class="subtitle" style="margin-bottom: 100px;">Develop a smart crosswalk system to detect ambulances in real-time and prioritize their safe passage, thereby improving traffic safety and potentially saving lives</P>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                             <div class="pull-left">
+                                 <h4 class="mt-2">Sub Objectives (Component 3)</h4>
+                                 <span class="line"></span>  
+                             </div>
+                        </div>
+                        <div class="card-body pb-2">
+                             <p class="subtitle">Detect the emergency vehicle siren sound using Iot to find the direction of the vehicle</p>
+                             <p class="subtitle" style="margin-bottom: 150px;">Allow pedestrian to cross the road safely</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Main Objective (Component 4)</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <P class="subtitle" style="margin-bottom: 80px;">Introduce a pedestrian accident detection model that utilizes image processing and machine learning techniques to accurately detect accidents on pedestrian crossings</P>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                             <div class="pull-left">
+                                 <h4 class="mt-2">Sub Objectives (Component 4)</h4>
+                                 <span class="line"></span>  
+                             </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <p class="subtitle">Track vehicles that violate traffic rules by passing through crosswalks during red lights</p>
+                             <!-- <div class="progress mb-3">
+                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                             </div> -->
+                             <p class="subtitle">Improve public safety by providing an effective pedestrian accident detection system</p>
+                             <p class="subtitle" style="margin-bottom: 65px;">Inform authorities about the rule violations and accidents detected</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <section id="research-objectives">
-            <h2>Research Objectives</h2>
-            <div class="objective">
-                <h3>Track the player's Dribbling movement and personalized suggestion</h3>
-                <p>Beginner players can learn the basics of dribbling through our platform, gaining an understanding of how to control the ball effectively. They can also explore common mistakes made by professional players, such as improper hand positioning or lack of focus, helping them recognize and avoid these errors early on. Our tutorials provide step-by-step guidance on how to dribble correctly for both scoring and defending, ensuring players develop proper techniques to maintain ball control under pressure, create scoring opportunities, and strengthen their defensive skills.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/CMQp0bwjokw?si=UjJCHaB_yoI-AGzI&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-calendar4-week" viewBox="0 0 16 16">
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
+                                    <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">200+</h1>
+                            <p class="text-light mb-1">Days Worked</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
+                                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                                    <path d="M4.603 14.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.697 19.697 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.856.856 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.712 5.712 0 0 1-.911-.95 11.651 11.651 0 0 0-1.997.406 11.307 11.307 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.793.793 0 0 1-.58.029zm1.379-1.901c-.166.076-.32.156-.459.238-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361.01.022.02.036.026.044a.266.266 0 0 0 .035-.012c.137-.056.355-.235.635-.572a8.18 8.18 0 0 0 .45-.606zm1.64-1.33a12.71 12.71 0 0 1 1.01-.193 11.744 11.744 0 0 1-.51-.858 20.801 20.801 0 0 1-.5 1.05zm2.446.45c.15.163.296.3.435.41.24.19.407.253.498.256a.107.107 0 0 0 .07-.015.307.307 0 0 0 .094-.125.436.436 0 0 0 .059-.2.095.095 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a3.876 3.876 0 0 0-.612-.053zM8.078 7.8a6.7 6.7 0 0 0 .2-.828c.031-.188.043-.343.038-.465a.613.613 0 0 0-.032-.198.517.517 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822.024.111.054.227.09.346z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">10</h1>
+                            <p class="text-light mb-1">Documents</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-file-earmark-slides" viewBox="0 0 16 16">
+                                    <path d="M5 6a.5.5 0 0 0-.496.438l-.5 4A.5.5 0 0 0 4.5 11h3v2.016c-.863.055-1.5.251-1.5.484 0 .276.895.5 2 .5s2-.224 2-.5c0-.233-.637-.429-1.5-.484V11h3a.5.5 0 0 0 .496-.562l-.5-4A.5.5 0 0 0 11 6H5zm2 3.78V7.22c0-.096.106-.156.19-.106l2.13 1.279a.125.125 0 0 1 0 .214l-2.13 1.28A.125.125 0 0 1 7 9.778z"/>
+                                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">5</h1>
+                            <p class="text-light mb-1">Presentations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">200+</h1>
+                            <p class="text-light mb-1">Meetings</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="objective">
-                <h3>Enhance Hoop Tracking Accuracy</h3>
-                <p>Our platform provides players with precise and accurate feedback on their shooting mechanics and performance, helping them identify areas for improvement and refine their skills. To further enhance hoop tracking accuracy, we develop advanced methods for precise shot trajectory tracking, ensuring reliable data on shot angles, release points, and scoring patterns. This detailed analysis enables players to make informed adjustments and consistently improve their shooting performance.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7xcihtr_9kk?si=r2PKYG_i2-tHbIGD&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="section bg-custom-gray" id="soluion">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Our</span> Solution</h1>
+    
+            <div class="image-container">
+                <div class="image">
+                    <a href="assets/imgs/highlevel.jpg" data-toggle="modal" data-target="#imageModal">
+                        <img src="assets/imgs/highlevel.jpg" alt="High-level Overall System Diagram" class="highlevel-img">
+                    </a>
+                    <div class="image-title">High-level Overall System Diagram</div>
+                </div>
+                <div class="image">
+                    <a href="assets/imgs/com1high.jpg" data-toggle="modal" data-target="#imageModal">
+                    <img src="assets/imgs/com1high.jpg" alt="High-level Overall Diagram (Component 1)" class="highlevel-img">
+                    </a>
+                    <div class="image-title">High-level Overall Diagram (Component 1)</div>
+                </div>
+    
+                <div class="image">
+                    <a href="assets/imgs/com2high.jpg" data-toggle="modal" data-target="#imageModal">
+                    <img src="assets/imgs/com2high.jpg" alt="High-level Overall Diagram (Component 2)" class="highlevel-img">
+                    </a>
+                    <div class="image-title">High-level Overall Diagram (Component 2)</div>
+                </div>
+    
+                <div class="image">
+                    <a href="assets/imgs/com3high.jpg" data-toggle="modal" data-target="#imageModal">
+                    <img src="assets/imgs/com3high.jpg" alt="High-level Overall Diagram (Component 3)" class="highlevel-img">
+                    </a>
+                    <div class="image-title">High-level Overall Diagram (Component 3)</div>
+                </div>
+    
+                <div class="image">
+                    <a href="assets/imgs/com4high.jpg" data-toggle="modal" data-target="#imageModal">
+                    <img src="assets/imgs/com4high.jpg" alt="High-level Overall Diagram (Component 4)" class="highlevel-img">
+                    </a>
+                    <div class="image-title">High-level Overall Diagram (Component 4)</div>
+                </div>
             </div>
-            <div class="objective">
-                <h3>Design and Implementation of Strength Training Programs with User Input, Body Analysis, and Customized Workout Plans</h3>
-                <p>We collect user inputs through surveys to understand each player’s fitness goals and preferences, ensuring personalized training experiences. With this data, we design and implement strength training programs that integrate body analysis, including factors like height, weight, and body composition. This approach allows us to create customized workout plans tailored to the specific needs of each player, focusing on injury prevention, muscle development, and overall performance improvement. As players progress, the platform adjusts these plans based on their feedback, ensuring continuous optimization and alignment with their evolving goals.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/1eB4SsaVjq8?si=QEK7aUnQFrlXaZuh&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>            
+    </section>
+
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document"> 
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <img src="" id="popupImage" class="img-fluid">
+                </div>
             </div>
-            <div class="objective">
-                <h3>Progress tracking and Performance analytics</h3>
-                <p>Our platform gathers data from hoop tracking, movement tracking, and strength training to provide a comprehensive view of player performance. This data enables more accurate player performance predictions, helping players and coaches identify areas for improvement. Based on these insights, the system suggests personalized practice sessions tailored to individual needs, ensuring targeted skill development. Additionally, progress tracking and performance analytics offer real-time feedback on strengths and weaknesses, allowing players to monitor their growth and make data-driven adjustments to their training routines.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/6mD9r362pMk?si=OFxDKpIRuQ821r2N&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </section>
-        <section id="methodology">
-            <h2>Methodology</h2>
-            <img src="methology.webp" alt="System Overview Diagram" style="width: 100%; height: auto;">
-            <p>Description of the methodology and system overview...</p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Point Guard. All rights reserved.</p>
-    </footer>
+        </div>
+    </div>
+    
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Function to handle smooth scrolling to an element
-            function scrollToElement(selector) {
-                const element = document.querySelector(selector);
-                if (element) {
-                    window.scrollTo({
-                        'behavior': 'smooth',
-                        'top': element.offsetTop
-                    });
-                }
-            }
-
-            // Event listener for the 'Research Problem' navigation link
-            document.getElementById('researchproblem-link').addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent the default anchor behavior
-                scrollToElement('#research-problem-solution'); // Smooth scroll to the 'Research Problem & Solution' section
-            });
-
-            // Event listener for the 'Research Objectives' navigation link
-            document.getElementById('research-objectives-link').addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent the default anchor behavior
-                scrollToElement('#research-objectives'); // Smooth scroll to the 'Research Objectives' section
-            });
-			
-			// Event listener for the 'Methology' navigation link
-            document.getElementById('methology-link').addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent the default anchor behavior
-                scrollToElement('#methodology'); // Smooth scroll to the 'Research Objectives' section
-            });
-        });
+      $(document).on("click", ".image a", function () {
+        var src = $(this).attr("href");
+        $("#popupImage").attr("src", src);
+      });
     </script>
+    
+
+    <section class="section bg-custom-gray" id="results">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Our</span> Results</h1>
+            <h4>Images: </h4>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        All
+                    </a>
+                    <a href="#" data-filter=".com1">
+                        Component 1
+                    </a>
+                    <a href="#" data-filter=".com2">
+                        Component 2
+                    </a>
+                    <a href="#" data-filter=".com3">
+                        Component 3
+                    </a>
+                    <a href="#" data-filter=".com4">
+                        Component 4
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web com1 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com1r1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com1r1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 1</h6>
+                                    <p class="subtitle">Derive the people who are looking forward to cross the road</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com1 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com1r2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com1r2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 1</h6>
+                                    <p class="subtitle">Disable Pedestrian Detection by Transfer Learning</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com1 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com1r3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com1r3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 1</h6>
+                                    <p class="subtitle">Disable Pedestrian Detection by Transfer Learning</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Filled Road Detection</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Bare Road Detection</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Cumulative Vehicle Availability Checking</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Vehicle Speed Measurement</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r6.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r6.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Uncontrollable Speed Capture and Response Mechanism</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r7.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r7.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Scenario 01 : First Time Slot + Both bare roads + Both Available => Turn Red => Keep Red in a dynamic time => Turn yellow => Green</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r8.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r8.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Scenario 02 : Second Time Slot + Both Available + need not to be bare, can be filled => Turn Red => Keep Red for a dynamic time => Turn yellow => Turn Green</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r9.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r9.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Scenario 03 : Third Time Slot(Can be filled => if speed of frontline first vehicle> threshold => detect High speed => Turn Yellow => keep yellow until time passed => check ambulance confirmation => Turn Red)</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com2 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com2r10.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com2r10.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 2</h6>
+                                    <p class="subtitle">Scenario 04 : Fourth Time Slot Can be filled => if high speed not detected => turn red</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com3 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com3r1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com3r1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 3</h6>
+                                    <p class="subtitle">Detecting siren sound and the direction</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com3 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com3r2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com3r2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 3</h6>
+                                    <p class="subtitle">Activating the camera for the siren direction and ensure whether it is an ambulance</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com3 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com3r3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com3r3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 3</h6>
+                                    <p class="subtitle">Detecting whether the ambulance pass the crosswalk</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com4r1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com4r1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 4</h6>
+                                    <p class="subtitle">Pedestrian to Vehicle Accident Detection</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com4r2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com4r2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 4</h6>
+                                    <p class="subtitle">Pedestrian to Vehicle Accident Detection</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com4r3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com4r3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 4</h6>
+                                    <p class="subtitle">Pedestrian to Vehicle Accident Detection in Low Light</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com4r4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com4r4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 4</h6>
+                                    <p class="subtitle">Pedestrian to Vehicle Accident Detection</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com4r5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com4r5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 4</h6>
+                                    <p class="subtitle">Pedestrian Rule Violation</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web com4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/com4r6.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/com4r6.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Component 4</h6>
+                                    <p class="subtitle">Veicle Rule Violation</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+
+    <section class="section" id="doc">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Our</span> Documents</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://drive.google.com/file/d/1T-e24o80iUt6lg6Pyp58yKAsoxk9zGQ3/view" target="0">
+                        <div class="card mb-5 card-clickable">
+                        <div class="card-header has-icon">
+                                <i class="ti-write text-danger" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-body px-4 py-3">
+                                <h5 class="mb-3 card-title text-dark">Research Paper</h5>
+                                <P class="subtitle">Our research addresses safety and urban mobility challenges in pedestrian crossings, introducing a cutting-edge smart crosswalk with four core components. These components enhance safety, optimize traffic flow, and improve the pedestrian crossing experience in our research paper.</P>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://drive.google.com/file/d/1GANygUpW7y7P4bY_yZH0H4aUK-TyPPxO/view" target="0">
+                        <div class="card mb-5 card-clickable">
+                        <div class="card-header has-icon">
+                                <i class="ti-write text-danger" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-body px-4 py-3">
+                                <h5 class="mb-3 card-title text-dark">Final Report (Hiruni Kaveesha)</h5>
+                                <P class="subtitle">This research addresses pedestrian safety at crosswalks by proposing a dynamic traffic light system that adjusts based on real-time vehicle availability and speeds. It aims to reduce waiting times, improve traffic flow, and enhance safety by optimizing crossing times, offering potential benefits in urban areas.</P>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://drive.google.com/file/d/1XG48efO1psRWf3K-anfBXMSFz3D1KhlI/view" target="0">
+                        <div class="card mb-5 card-clickable">
+                        <div class="card-header has-icon">
+                                <i class="ti-write text-danger" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-body px-4 py-3">
+                                <h5 class="mb-3 card-title text-dark">Final Report (Lakitha Weerakoon)</h5>
+                                <P class="subtitle">This research addresses pedestrian safety concerns by developing an image processing and machine learning-based model for detecting pedestrian accidents at crosswalks and tracking vehicles violating traffic signals. Using CCTV footage, the model extracts data, classifies accidents, and reports violations.</P>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://drive.google.com/file/d/1Wsqs13RO7nEPXCr_WoFD73vp0zmeqH0N/view" target="0">
+                        <div class="card mb-5 card-clickable">
+                        <div class="card-header has-icon">
+                                <i class="ti-write text-danger" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-body px-4 py-3">
+                                <h5 class="mb-3 card-title text-dark">Final Report (Sanduni Jayasinghe)</h5>
+                                <P class="subtitle">This research introduces a real-time emergency vehicle detection system for crosswalks, using image processing and machine learning. It recognizes emergency vehicles via siren sound and CCTV footage, prioritizing their passage, improving emergency response times and pedestrian safety in urban areas.</P>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://drive.google.com/file/d/1GoYsv0W76Is-i6dN8L-mrhuf8RWcM_Ty/view" target="0">
+                        <div class="card mb-5 card-clickable">
+                        <div class="card-header has-icon">
+                                <i class="ti-write text-danger" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-body px-4 py-3">
+                                <h5 class="mb-3 card-title text-dark">Final Report (Tolani Weerasinghe)</h5>
+                                <P class="subtitle">This research enhances pedestrian safety at crosswalks, using YOLOv8 object detection to identify disabled pedestrians and improve their safety. It combines machine learning and image processing for accurate pedestrian detection and real-time crossing time estimates, promoting inclusivity and safety.</P>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="pres">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Our</span> Presentations</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://docs.google.com/presentation/d/1jgHcdZbBHCa0EdtxUPW6eYNxfgopbyKl/view" target="0">
+                    <div class="card mb-5 card-clickable">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Proposal Presentation</h5>
+                            <P class="subtitle">This proposal outlines a comprehensive system for crosswalk safety, including real-time pedestrian detection and priority features for those with special needs, a dynamic traffic light system using road conditions and speeds, real-time emergency vehicle detection with verification, and pedestrian accident and rule violation detection on crosswalks.</P>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://docs.google.com/presentation/d/1M3QqKYfngMLumwzmCwu9eiKxSTxOaOhB/view" target="0">
+                    <div class="card mb-5 card-clickable">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Progress Presentation 1</h5>
+                            <P class="subtitle">Progress presentation one encompasses multiple facets, including pedestrian detection and counting, vehicle detection with availability checks for both clear and congested roads. Additionally, models are trained for ambulance detection and accident detection, collectively contributing to enhanced safety and traffic management at crosswalks.</P>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://docs.google.com/presentation/d/1LLQP6JrnLn3nif96n-1ZLU6PkzaU46ZG/view" target="0">
+                    <div class="card mb-5 card-clickable">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Progress Presentation 2</h5>
+                            <P class="subtitle">In Progress presentation two it prioritizes pedestrian safety at crosswalks. It includes creation of custom models for disabled pedestrian detection, optimized crossing times, vehicle speed measurement, traffic light controlling, and rule violation detection. A mechanism was introduced for ambulance siren verification as well.</P>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://docs.google.com/presentation/d/1xKNNs6t6oCl-VrZ-8Xy6R3Fi7V5Z69uz/view" target="0">
+                    <div class="card mb-5 card-clickable">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Final Presentation</h5>
+                            <P class="subtitle">In our comprehensive pedestrian safety initiative, we've successfully integrated disability-aware pedestrian detection, optimized crossing times, vehicle condition and availability checker, vehicle speed measurement, rule violation detection, and ambulance siren verification. Combining all a traffic control logic was built in. This integrated approach enhances urban safety and mobility.</P>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+94766692992</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">lkthmtchl@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+            </p>
+        </div>
+    </footer>
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/script.js"></script>
+
 </body>
 </html>
