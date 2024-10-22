@@ -120,10 +120,9 @@ p {
 }
 
 .objective iframe {
-    width: 100%; /* Full width video embeds */
-    height: 250px; /* Fixed height for all videos */
-    border: none; /* Remove any default borders */
-    margin-top: 10px;
+    width: 100%; /* Makes the video responsive within its container */
+    height: auto; /* Adjusts height automatically */
+    aspect-ratio: 16 / 9; /* Keeps the aspect ratio of the video */
 }
 
 #methodology {
