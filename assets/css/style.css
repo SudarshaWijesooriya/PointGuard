@@ -11770,3 +11770,82 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+/* General Styling from tech used section.............................................................. */
+#tech_used {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+#tech_used h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Technology Row Styling */
+.technology {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual Tech Cards */
+.technology .col-md-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Avatar Circle Styling */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Avatar Image Styling */
+.avatar img {
+  max-width: 60%;
+  height: auto;
+}
+
+/* Hover Effect */
+.avatar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Text Below Icon */
+.technology p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .technology .col-sm-4 {
+      flex: 1 1 45%;
+      max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .technology .col-6 {
+      flex: 1 1 100%;
+      max-width: 100%;
+  }
+}
