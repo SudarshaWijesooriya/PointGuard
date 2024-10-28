@@ -5822,7 +5822,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #F85C70;
+  background-color: #ff681f;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
@@ -7162,7 +7162,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #A3C14A !important;
+  background-color: #ffe338; !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -11848,4 +11848,307 @@ pre .code {
       flex: 1 1 100%;
       max-width: 100%;
   }
+}
+
+.footer {
+    background-color: #000000;
+    color: #ddd;
+    padding: 50px 0;
+    font-size: 15px;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+  }
+  
+  .footer .footer-contact, .footer .footer-form, .footer .footer-links {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-contact ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    font-size: 15px;
+  }
+  
+  .footer-contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact a {
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-contact a:hover {
+    color: #f09e32;
+  }
+  
+  .footer-form .form-control {
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-form .btn-primary {
+    background-color: #e67021;
+    border: none;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .footer-form .btn-primary:hover {
+    background-color: #e37a15;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+  }
+  
+  .footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #f09e32;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 28px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-bottom {
+    padding-top: 15px;
+    font-size: 13px;
+    border-top: 1px solid #333;
+    color: #bbb;
+  }
+  
+  .footer-bottom a {
+    color: #f09e32;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    color: #fff;
+  }
+
+  .milestones {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+
+.timeline-event:hover .timeline-event-icon {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #00b8a5;
+}
+
+.timeline-event:hover .timeline-event-thumbnail {
+  -webkit-box-shadow: inset 40em 0 0 0 #00b8a5;
+  box-shadow: inset 40em 0 0 0 #00b8a5;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
+}
+
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+
+.timeline-event-icon {
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-in 0.1s;
+  transition: -webkit-box-shadow 0.5s ease-in 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s, -webkit-box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+/* Variables */
+.milestones {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+
+.timeline-event:hover .timeline-event-icon {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #00b8a5;
+}
+
+.timeline-event:hover .timeline-event-thumbnail {
+  -webkit-box-shadow: inset 40em 0 0 0 #00b8a5;
+  box-shadow: inset 40em 0 0 0 #00b8a5;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
+}
+
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+
+.timeline-event-icon {
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-in 0.1s;
+  transition: -webkit-box-shadow 0.5s ease-in 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s, -webkit-box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
 }
