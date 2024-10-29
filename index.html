@@ -527,19 +527,10 @@
     </div>
     
     <script>
-        $(document).on("click", ".image", function (event) {
-            event.preventDefault(); // Prevent default link action
-            var src = $(this).attr("href");
-            $("#popupImage").attr("src", src);
-            $("#popupContainer").show(); // Display the popup container
-        });
-    
-        // Hide the popup when clicking outside of the image
-        $(document).on("click", function (event) {
-            if (!$(event.target).closest("#popupImage, .image").length) {
-                $("#popupContainer").hide();
-            }
-        });
+      $(document).on("click", ".image a", function () {
+        var src = $(this).attr("href");
+        $("#popupImage").attr("src", src);
+      });
     </script>
     
     <!-- Technologies Used -->
@@ -645,24 +636,6 @@
                         Component 4
                     </a>
                 </div>
-                <div id="popupContainer" style="display: none;">
-                    <img id="popupImage" src="" alt="Popup Image">
-                </div>
-
-                <div class="col-md-6 col-lg-4 web com2 new">
-                    <div class="portfolio-item">
-                        <a class="image" href="assets/imgs/Com2_4.png">
-                            <img src="assets/imgs/Com2_4.png" class="img-fluid" alt="4">
-                        </a>
-                        <div class="content-holder">
-                            <div class="text-holder">
-                                <h6 class="title">Component 2</h6>
-                                <p class="subtitle">Strength Training 4</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web com1 new">
                         <div class="portfolio-item">
