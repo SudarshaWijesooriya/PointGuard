@@ -12153,37 +12153,3 @@ pre .code {
   padding: 0.25em 1em 0.2em 1em;
 }
 
-.gap-section {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.gap-item {
-  flex: 1;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.gap-item h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-.gap-item p {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-top: 10px;
-  color: #555;
-}
-
-.icon {
-  font-size: 30px;
-  color: #4CAF50;
-}
-</style>
