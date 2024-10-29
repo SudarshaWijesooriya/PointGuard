@@ -527,10 +527,19 @@
     </div>
     
     <script>
-      $(document).on("click", ".image a", function () {
-        var src = $(this).attr("href");
-        $("#popupImage").attr("src", src);
-      });
+        $(document).on("click", ".image", function (event) {
+            event.preventDefault(); // Prevent default link action
+            var src = $(this).attr("href");
+            $("#popupImage").attr("src", src);
+            $("#popupContainer").show(); // Display the popup container
+        });
+    
+        // Hide the popup when clicking outside of the image
+        $(document).on("click", function (event) {
+            if (!$(event.target).closest("#popupImage, .image").length) {
+                $("#popupContainer").hide();
+            }
+        });
     </script>
     
     <!-- Technologies Used -->
@@ -635,6 +644,9 @@
                     <a href="#" data-filter=".com4">
                         Component 4
                     </a>
+                </div>
+                <div id="popupContainer" style="display: none;">
+                    <img id="popupImage" src="" alt="Popup Image">
                 </div>
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web com1 new">
